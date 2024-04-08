@@ -42,3 +42,8 @@
    - Share your project globally via npm.
    - Log in to npm using 'npm login'.
    - Publish your project with 'npm publish'.
+
+=== Changes in the code ===
+> git add .
+> git commit -m "Implemented changes for GitHub integration via terminal"
+> git push origin main
