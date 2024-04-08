@@ -1,0 +1,44 @@
+=== Initial Configurations ===
+
+1. TypeScript Initialization:
+   - Enhance code reliability with TypeScript.
+   - Run 'tsc --init' to generate 'tsconfig.json'.
+   - Modify 'tsconfig.json':
+     - Set "target" to "ES2022".
+     - Set "module" to "NodeNext".
+     - Uncomment and set "moduleResolution" to "NodeNext".
+
+2. npm Initialization:
+   - Manage project details and dependencies with npm.
+   - Run 'npm --init' to create 'package.json'.
+   - Modify 'package.json':
+     - Add "type": "module" to support ES module syntax.
+
+=== Install Dependencies ===
+
+3. Inquirer Installation:
+   - Interact with users via the terminal using the Inquirer package.
+   - Install Inquirer: 'npm install inquirer'.
+   - Install type definitions for Inquirer: 'npm install --save-dev @types/inquirer'.
+
+=== Start Coding ===
+
+4. Main File Creation:
+   - Begin coding your project.
+   - Create 'main.ts' as your main TypeScript file.
+   - Import Inquirer in 'main.ts' using 'import inquirer from "inquirer";'.
+
+=== Sharing the Project ===
+
+5. Shebang Line Addition:
+   - Make your application executable from the command line.
+   - Add the shebang line (e.g., '#!/usr/bin/env node') at the beginning of 'app.ts'.
+
+6. Configuring package.json:
+   - Enable running your project as a command from the terminal.
+   - Edit 'package.json' to include '"bin": "app.js"'.
+
+7. Publishing to npm:
+   - Share your project globally via npm.
+   - Log in to npm using 'npm login'.
+   - Publish your project with 'npm publish'.
